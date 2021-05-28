@@ -1,0 +1,9 @@
+Plant Shopping List
+-----------------------------
+x1 Annonaceae Asimina also known as: pawpaw
+x2 Betulaceae Corylus also known as: hazelnut
+x2 Rosaceae Crataegus also known as: hawthorn
+x2 Rhamnaceae Ceanothus also known as: New Jersey tea
+x2 Fabaceae Clitoria also known as: pigeonwings
+-----------------------------
+Land 4 Leps 2021

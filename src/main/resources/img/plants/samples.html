@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Search — Zephyr Project Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="samples_files/theme.css" type="text/css">
+  <link rel="stylesheet" href="samples_files/pygments.css" type="text/css">
+  <link rel="stylesheet" href="samples_files/tabs.css" type="text/css">
+  <link rel="stylesheet" href="samples_files/custom.css" type="text/css">
+
+  
+  
+    <link rel="shortcut icon" href="https://docs.zephyrproject.org/latest/_static/zp_favicon.png">
+  
+
+  
+  
+
+  
+
+  
+    
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="samples_files/documentation_options.js"></script>
+        <script src="samples_files/jquery.js"></script>
+        <script src="samples_files/underscore.js"></script>
+        <script src="samples_files/doctools.js"></script>
+        <script src="samples_files/tabs.js"></script>
+        <script type="module" src="samples_files/dark-mode-toggle.mjs"></script>
+        <script src="samples_files/js"></script>
+        <script src="samples_files/ga-tracker.js"></script>
+    
+    <script type="text/javascript" src="samples_files/theme.js"></script>
+
+    
+    <script type="text/javascript" src="samples_files/searchtools.js"></script>
+    <script type="text/javascript" src="samples_files/language_data.js"></script>
+    <link rel="index" title="Index" href="https://docs.zephyrproject.org/latest/genindex.html">
+    <link rel="search" title="Search" href="#">
+    <link rel="copyright" title="Copyright" href="https://docs.zephyrproject.org/latest/copyright.html">
+  <meta name="color-scheme" content="dark light">
+  
+  <link rel="stylesheet" href="samples_files/light.css" type="text/css" media="all">
+  <link rel="stylesheet" href="samples_files/dark.css" type="text/css" media="not all" disabled="">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="https://docs.zephyrproject.org/latest/index.html">
+          
+
+          
+            
+            <img src="samples_files/logo.svg" class="logo" alt="Logo">
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.6.0-rc2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+    <input type="text" name="q" placeholder="Search docs" value="button">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+  
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Zephyr Project</span>
+      v: latest
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Document Release Versions</dt>
+        
+          <dd><a href="https://docs.zephyrproject.org/">latest</a></dd>
+        
+          <dd><a href="https://docs.zephyrproject.org/2.5.0/">2.5.0</a></dd>
+        
+          <dd><a href="https://docs.zephyrproject.org/2.4.0/">2.4.0</a></dd>
+        
+          <dd><a href="https://docs.zephyrproject.org/2.3.0/">2.3.0</a></dd>
+        
+          <dd><a href="https://docs.zephyrproject.org/2.2.0/">2.2.0</a></dd>
+        
+          <dd><a href="https://docs.zephyrproject.org/1.14.1/">1.14.1</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>zephyrproject.org Links</dt>
+          <dd>
+            <a href="https://www.zephyrproject.org/">Project Home</a>
+          </dd>
+          <dd>
+            <a href="https://github.com/zephyrproject-rtos/sdk-ng/releases">SDK</a>
+          </dd>
+          <dd>
+            <a href="https://github.com/zephyrproject-rtos/zephyr/releases">Releases</a>
+          </dd>
+      </dl>
+    </div>
+  </div>
+  
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.zephyrproject.org/latest/introduction/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.zephyrproject.org/latest/getting_started/index.html">Getting Started Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.zephyrproject.org/latest/contribute/index.html">Contribution Guidelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.zephyrproject.org/latest/development_process/index.html">Development and Contribution Process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.zephyrproject.org/latest/application/index.html">Application Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.zephyrproject.org/latest/reference/index.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.zephyrproject.org/latest/guides/index.html">User and Developer Guides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.zephyrproject.org/latest/security/index.html">Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.zephyrproject.org/latest/samples/index.html">Samples and Demos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.zephyrproject.org/latest/boards/index.html">Supported Boards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.zephyrproject.org/latest/releases/index.html">Release Notes</a></li>
+</ul>
+
+            
+          
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="https://docs.zephyrproject.org/latest/index.html">Zephyr Project</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+  <!-- Docs / Latest -->
+  
+  
+
+  <li><a href="https://docs.zephyrproject.org/latest/index.html">Docs / Latest</a> »</li>
+  
+  <li>Search</li>
+  <dark-mode-toggle id="dark-mode-toggle" appearance="toggle" permanent="" mode="light">
+
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </dark-mode-toggle></ul>
+
+  
+  <hr>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+  
+    <div class="wy-alert wy-alert-danger">
+     This is the documentation for the latest (master) development branch of
+     Zephyr. If you are looking for the documentation of previous releases, use
+     the drop-down menu on the left and select the desired version.
+    </div>
+  
+  
+           <div itemprop="articleBody">
+            
+  <noscript>
+  <div id="fallback" class="admonition warning">
+    <p class="last">
+      Please activate JavaScript to enable the search functionality.
+    </p>
+  </div>
+  </noscript>
+
+  
+  <div id="search-results">
+  
+  <h2>Searching<span>...</span></h2><p class="search-summary">&nbsp;</p><ul class="search"><li><a href="https://docs.zephyrproject.org/latest/reference/usb/index.html?highlight=button#c.HID_USAGE_GEN_BUTTON">HID_USAGE_GEN_BUTTON</a><span> (C macro, in USB device stack)</span></li><li><a href="https://docs.zephyrproject.org/latest/reference/networking/lwm2m.html?highlight=button#c.IPSO_OBJECT_PUSH_BUTTON_ID">IPSO_OBJECT_PUSH_BUTTON_ID</a><span> (C macro, in Lightweight M2M (LWM2M))</span></li><li><a href="https://docs.zephyrproject.org/latest/application/index.html?highlight=button">Application Development</a><div class="context">...es area
+– otherwise, you have to run RapidEE as administrator. Also make sure to save
+your changes by clicking the Save <span class="highlighted">button</span> at top left before exiting.Settings
+you make in RapidEE will be available whenever you open a new terminal window...</div></li><li><a href="https://docs.zephyrproject.org/latest/guides/porting/board_porting.html?highlight=button">Board Porting Guide</a><div class="context">...e description in devicetree format. This declares your SoC, connectors, and any
+other hardware components such as LEDs, <span class="highlighted">button</span>s, sensors, or communication
+peripherals (USB, BLE controller, etc).
+Kconfig.board, Kconfig.defconfig, plank_defco...</div></li><li><a href="https://docs.zephyrproject.org/latest/reference/networking/coap.html?highlight=button">CoAP</a><div class="context">...in the path.
+
+static const char * const led_set[] = { "led","+","set", NULL };
+static const char * const btn_get[] = { "<span class="highlighted">button</span>","#", NULL };
+static const char * const no_wc[] = { "test","+1", NULL };
+
+
+It accepts /led/0/set, led/1234/set, l...</div></li><li><a href="https://docs.zephyrproject.org/latest/contribute/index.html?highlight=button">Contribution Guidelines</a><div class="context">...We’ll describe a typical
+workflow here:
+
+Create a Fork of Zephyr
+to your personal account on GitHub. (Click on the fork <span class="highlighted">button</span> in the top
+right corner of the Zephyr project repo page in GitHub.)
+On your development computer, change into the...</div></li><li><a href="https://docs.zephyrproject.org/latest/guides/flash_debug/probes.html?highlight=button">Debug Probes</a><div class="context">...the steps for programming the firmware are:
+
+Put the OpenSDA microcontroller into bootloader mode by holding the reset
+<span class="highlighted">button</span> while you power on the board. Note that “bootloader mode” in this
+context applies to the OpenSDA microcontroller...</div></li><li><a href="https://docs.zephyrproject.org/latest/reference/peripherals/kscan.html?highlight=button">KSCAN</a><div class="context">...kscan driver (keyboard scan matrix) is used for detecting a key press in a
+connected matrix keyboard or any device with <span class="highlighted">button</span>s such as joysticks.
+Typically, matrix keyboards are implemented using a two-dimensional
+configuration in order to...</div></li><li><a href="https://docs.zephyrproject.org/latest/development_process/release_process.html?highlight=button">Release Process</a><div class="context">...hortlog v1.10.0..v1.11.0-rc1
+
+
+
+Find the new tag at the top of the releases page and edit the release
+with the Edit tag <span class="highlighted">button</span> with the following:
+
+
+Name it Zephyr 1.11.0-rc1
+Copy the shortlog into the release notes textbox (don’t forget
+to...</div></li><li><a href="https://docs.zephyrproject.org/latest/reference/devicetree/bindings/sensor/semtech,sx9500.html?highlight=button">semtech,sx9500 (on i2c bus)</a><div class="context">...semtech,sx9500 (on i2c bus)
+Vendor: Semtech Corporation
+
+Description
+Semtech SX9500 capacitive proximity/<span class="highlighted">button</span>. See more info at
+https://www.semtech.com/products/smart-sensing/touch-proximity-devices/sx9500
+
+
+
+
+Properties
+
+N...</div></li><li><a href="https://docs.zephyrproject.org/latest/reference/shell/index.html?highlight=button">Shell</a><div class="context">...ows you to create and handle a shell with a user-defined command
+set. You can use it in examples where more than simple <span class="highlighted">button</span> or LED user
+interaction is required. This module is a Unix-like shell with these features:
+
+Support for multiple...</div></li><li><a href="https://docs.zephyrproject.org/latest/reference/usb/index.html?highlight=button">USB device stack</a><div class="context">...page 
+
+
+
+
+HID_USAGE_GEN_KEYBOARD
+HID Keyboard Usage page 
+
+
+
+
+HID_USAGE_GEN_LEDS
+HID LEDs Usage page 
+
+
+
+
+HID_USAGE_GEN_<span class="highlighted">BUTTON</span>
+HID Button Usage page 
+
+
+
+
+HID_USAGE_GEN_DESKTOP_UNDEFINED
+HID Generic Desktop Undefined Usage ID 
+
+
+
+
+HID_USAGE_...</div></li><li><a href="https://docs.zephyrproject.org/latest/releases/release-notes-1.14.html?highlight=button">Zephyr 1.14.2</a><div class="context">...for all labels generated for information extracted
+from device tree (with a few exceptions, such as labels for LEDs and <span class="highlighted">button</span>s,
+kept for backward compatibility with existing applications).  Deprecated all
+other defines that are generated....</div></li><li><a href="https://docs.zephyrproject.org/latest/releases/release-notes-2.0.html?highlight=button">Zephyr 2.0.0</a><div class="context">...Ethernet driver.
+Added support for sendmsg() API.
+Added civetweb HTTP API support.
+Added LWM2M IPSO Accelerometer, Push <span class="highlighted">Button</span>, On/Off Switch and Buzzer object
+support.
+Added LWM2M Location and Connection Monitoring object support.
+Added ne...</div></li><li><a href="https://docs.zephyrproject.org/latest/releases/release-notes-2.3.html?highlight=button">Zephyr 2.3.0</a><div class="context">...sts/subsys/storage/flash_map failed on frdm_k64f board.
+24294 - Problem using TMP116 sensor with platformio
+24291 - The <span class="highlighted">button</span> interrupt enters the spurious handler
+24283 - os:   Illegal use of the EPSR-disco_l475_iot1
+24282 - echo_client s...</div></li><li><a href="https://docs.zephyrproject.org/latest/releases/release-notes-2.4.html?highlight=button">Zephyr 2.4.0</a><div class="context">...et/af_packet fails on FRDM-K64F
+27237 - Out_of_tree example broken
+27227 - shell crashes on qemu_x86 board upon the Tab <span class="highlighted">button</span> press
+27220 - Bluetooth: L2CAP: l2cap_change_security() not considering bt_conn::sec_level when handling BT_L2CAP...</div></li><li><a href="https://docs.zephyrproject.org/latest/releases/release-notes-2.5.html?highlight=button">Zephyr 2.5.0</a><div class="context">...)
+30230 - printk and power management incompatibility
+30229 - BinaryHandler has no pid file
+30224 - stm32f4_disco: User <span class="highlighted">button</span> press is inverted
+30222 - boards: arm: nucleo_wb55rg: fails to build basic samples
+30219 - drivers: gpio: gpio_cc...</div></li><li><a href="https://docs.zephyrproject.org/latest/releases/release-notes-2.6.html?highlight=button">Zephyr 2.6.0 (Working Draft)</a><div class="context">...d attribute handling helper functions.
+Removed obsolete LWM2M_IPSO_TIMESTAMP_EXTENSIONS option.
+Added IPSO Buzzer, Push <span class="highlighted">Button</span>, On/Off Switch, Accelerometer, Pressure Sensor,
+Humidity, Generic Sensor and Temperature object implementation to...</div></li><li><a href="https://docs.zephyrproject.org/latest/releases/release-notes-1.10.html?highlight=button">Zephyr Kernel 1.10.0</a><div class="context">...ilure on peripheral CSC with Arduino 101
+5152 - CONFIG_CPLUSPLUS is incompatible with the zephyr_get_* API
+5159 - [nrf] <span class="highlighted">Button</span> example for nrf5x boards latches GPIO after 1 button press
+5176 - zephyr-v1.9.2 tag missing
+5177 - hci_usb: Linki...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/96b_aerocore2/doc/index.html?highlight=button">96Boards Aerocore2</a><div class="context">...Force the board into DFU mode by keeping the BOOT0
+switch pressed while pressing and releasing the RST switch.
+The BOOT <span class="highlighted">button</span> is located at the back-side of the PCB.
+Confirm that the board is in DFU mode:
+$ sudo dfu-util -l
+dfu-util 0.8
+Co...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/96b_argonkey/doc/index.html?highlight=button">96Boards Argonkey</a><div class="context">...96b_argonkey/96b_argonkey_defconfig
+
+
+
+Connections and IOs
+
+LED
+
+LED1 / User1 LED = PB2
+LED2 / User2 LED = PC13
+
+
+
+Push <span class="highlighted">button</span>s
+
+BUTTON = RST (BT1)
+BUTTON = USR (BT2)
+
+
+
+
+System Clock
+96Boards Argonkey can be driven by an internal oscillato...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/96b_carbon/doc/index.html?highlight=button">96Boards Carbon</a><div class="context">...ections and IOs
+
+LED
+
+LED1 / User1 LED = PD2
+LED2 / User2 LED = PA15
+LED3 / BT LED = PB5
+LED4 / Power LED = VCC
+
+
+
+Push <span class="highlighted">button</span>s
+
+BUTTON = BOOT0 (SW1)
+BUTTON = RST
+
+
+
+External Connectors
+Low Speed Header
+
+
+
+
+
+
+
+PIN #
+Signal Name
+STM32F401 Fu...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/96b_neonkey/doc/index.html?highlight=button">96Boards Neonkey</a><div class="context">...s and IOs
+
+LED
+
+LED1 / User1 LED = PB12
+LED2 / User2 LED = PB13
+LED3 / User3 LED = PB14
+LED4 / User4 LED = PB15
+
+
+
+Push <span class="highlighted">button</span>s
+
+BUTTON = RST (SW1)
+BUTTON = USR (SW2)
+
+
+
+
+System Clock
+96Boards Neonkey can be driven by an internal oscillator...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/96b_nitrogen/doc/index.html?highlight=button">96Boards Nitrogen</a><div class="context">...trogen/96b_nitrogen_defconfig
+
+
+
+Pin Mapping
+
+LED
+
+LED1 / User LED (green) = P0.29
+LED2 / BT LED (blue) = P0.28
+
+
+
+Push <span class="highlighted">button</span>s
+
+BUTTON = SW1 = P0.27
+
+
+
+External Connectors
+Low Speed Header
+
+
+
+
+
+
+
+PIN #
+Signal Name
+nRF52832 Functions
+
+
+
+1
+G...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/96b_stm32_sensor_mez/doc/index.html?highlight=button">96Boards STM32 Sensor Mezzanine</a><div class="context">..._defconfig
+
+
+
+Connections and IOs
+
+LED
+
+LED1 / User1 LED = PD10
+LED2 / User2 LED = PD11
+LED3 / User3 LED = PD12
+
+
+
+Push <span class="highlighted">button</span>s
+
+BUTTON = RST (BT1)
+BUTTON = USR (BT2)
+
+
+
+
+System Clock
+96Boards STM32 Sensor Mezzanine can be driven by an inte...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/96b_wistrio/doc/96b_wistrio.html?highlight=button">96Boards WisTrio</a><div class="context">...m/96b_wistrio/96b_wistrio_defconfig
+
+
+
+Connections and IOs
+
+LED
+
+LED1 / User1 LED = PA12
+LED2 / User2 LED = PB4
+
+
+
+Push <span class="highlighted">button</span>s
+
+BUTTON = RST (BT1)
+
+
+
+
+Serial Port
+96Boards WisTrio board has 2 UARTs. Zephyr console output is assigned
+to USA...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/actinius_icarus_bee/doc/index.html?highlight=button">Actinius Icarus Bee</a><div class="context">...tor.
+It is built around Nordic Semi’s nRF9160 modem and combines
+LTE-M, NB-IoT, GPS, accelerometer, SPI Flash, RGB LED, <span class="highlighted">Button</span>,
+as well as an eSIM and a nano SIM connector.
+The main uController is the Nordic Semiconductor nRF9160, with
+ARM...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/adafruit_feather_m0_basic_proto/doc/index.html?highlight=button">Adafruit Feather M0 Basic Proto</a><div class="context">...d 32 KiB of RAM
+Battery connector and charger for 3.7 V lithium polymer batteries
+Charging indicator LED
+User LED
+Reset <span class="highlighted">button</span>
+Native USB port
+
+
+Supported Features
+The adafruit_feather_m0_basic_proto board configuration supports the
+followi...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/adafruit_feather_nrf52840/doc/index.html?highlight=button">Adafruit Feather nRF52840 Express</a><div class="context">...ttery connector and charger for 3.7 V lithium polymer batteries
+Charging indicator LED
+2 User LEDs
+1 NeoPixel LED
+Reset <span class="highlighted">button</span>
+SWD connector
+
+
+Supported Features
+The Adafruit Feather nRF52840 board configuration supports the
+following hardw...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/adafruit_itsybitsy_m4_express/doc/index.html?highlight=button">Adafruit ItsyBitsy M4 Express</a><div class="context">...KiB of RAM
+2 MiB of SPI flash
+Internal trimmed 8 MHz oscillator
+A user LED
+An RGB DotStar LED
+Native USB port
+One reset <span class="highlighted">button</span>
+
+
+Supported Features
+The adafruit_itsybitsy_m4_express board configuration supports the following
+hardware featur...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/adafruit_trinket_m0/doc/index.html?highlight=button">Adafruit Trinket M0</a><div class="context">...lash memory and 32 KiB of RAM
+Internal trimmed 8 MHz oscillator
+A user LED
+An RGB DotStar LED
+Native USB port
+One reset <span class="highlighted">button</span>
+
+
+Supported Features
+The adafruit_trinket_m0 board configuration supports the following hardware
+features:...</div></li><li><a href="https://docs.zephyrproject.org/latest/reference/kconfig/index-all.html?highlight=button">All Configuration Options</a><div class="context">...IG_GIC_V2
+
+
+CONFIG_GIC_V3
+
+
+CONFIG_GIC_VER
+
+
+CONFIG_GPIO
+GPIO Drivers
+
+CONFIG_GPIO_AS_PINRESET
+GPIO as pin reset (reset <span class="highlighted">button</span>)
+
+CONFIG_GPIO_CC13XX_CC26XX
+TI SimpleLink CC13xx / CC26xx GPIO driver
+
+CONFIG_GPIO_CC32XX
+TI CC32XX GPIO driver...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/arduino_due/doc/index.html?highlight=button">Arduino Due</a><div class="context">...for more details).
+Here is an example for the Hello World application. After
+building the application, press the Reset <span class="highlighted">button</span> before running the
+flash command, so the board will boot into the SAM-BA bootloader and
+be prepared to receive th...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/arduino_nano_33_ble/doc/index.html?highlight=button">Arduino Nano 33 BLE (Sense)</a><div class="context">...o your computer using the USB cable, and then
+
+west build -b arduino_nano_33_ble samples/blinky
+
+
+
+Double-tap the RESET <span class="highlighted">button</span> on your board. Your board should disconnect, reconnect,
+and there should be a pulsing orange LED near the USB por...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/arduino_nano_33_iot/doc/index.html?highlight=button">Arduino Nano 33 IOT</a><div class="context">...Hardware
+
+ATSAMD21G18A ARM Cortex-M0+ processor at 48 MHz
+256 KiB flash memory and 32 KiB of RAM
+One user LED
+One reset <span class="highlighted">button</span>
+Native USB port
+Wifi and Bluetooth via a u-blox NINA-W102
+ATECC608A secure element
+LSM6DS3 six axis accelerometer...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/arduino_zero/doc/index.html?highlight=button">Arduino/Genuino Zero</a><div class="context">...rtex-M0+ processor at 48 MHz
+32.768 kHz crystal oscillator
+256 KiB flash memory and 32 KiB of RAM
+3 user LEDs
+One reset <span class="highlighted">button</span>
+On-board USB based EDBG unit with serial console
+Native USB port
+
+
+Supported Features
+The arduino_zero board conf...</div></li><li><a href="https://docs.zephyrproject.org/latest/samples/boards/96b_argonkey/microphone/README.html?highlight=button">ArgonKey Board Microphone</a><div class="context">...output is completed the green LED goes off and the red
+LED stays on. The process can be reiterated by pressing the RST <span class="highlighted">button</span>.
+
+audio acquisition starts:     GRN on  - RED off
+audio acquisition ends:       GRN on  - RED on
+audio output end...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/mps2_an521/doc/index.html?highlight=button">ARM MPS2+ AN521</a><div class="context">...VGA
+
+
+On-board Peripherals
+
+Color LCD
+8 LEDs
+8 Switches
+External SSRAM1, SSRAM2 &amp; SSRAM3
+SMSC9220
+CS42L52
+
+
+
+
+User push <span class="highlighted">button</span>s
+The mps2_an521 board provides the following user push buttons:
+
+ON power on
+nSRST: Cortex-M33 system reset and C...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/mps3_an547/doc/index.html?highlight=button">ARM MPS3 AN547</a><div class="context">...RT
+SPI
+I2C
+I2S
+Color LCD serial interface
+Ethernet
+VGA
+
+
+On-board Peripherals
+
+Color LCD
+10 LEDs
+8 Switches
+2 user push <span class="highlighted">button</span>s
+
+
+
+
+Supported Features
+The mps3_an547 board configuration supports the following hardware features:
+
+
+
+
+
+
+
+Inter...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/v2m_musca_b1/doc/index.html?highlight=button">ARM V2M Musca B1</a><div class="context">...User RGB LED.
+Gyro sensor.
+Combined ADC/DAC/temperature sensor.
+Secure Digital I/O (SDIO) microSD card.
+
+
+
+
+User push <span class="highlighted">button</span>s
+The v2m_musca_b1 board provides the following user push buttons:
+
+PBON power on/off.
+nSRST: Cortex-M33 system re...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/v2m_musca_s1/doc/index.html?highlight=button">ARM V2M Musca-S1</a><div class="context">...analog interface.
+
+
+On-board Peripherals
+
+User RGB LED.
+Gyro sensor.
+Combined ADC/DAC/temperature sensor.
+
+
+
+
+User push <span class="highlighted">button</span>s
+The v2m_musca_s1 board provides the following user push buttons:
+
+PBON: power on/off.
+nSRST: Cortex-M33 system r...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/serpente/doc/index.html?highlight=button">Arturo182 Serpente</a><div class="context">...RM Cortex-M0+ processor at 48 MHz
+256 KiB flash memory and 32 KiB of RAM
+Extra 4MiB SPI flash memory
+RGB User LED
+Reset <span class="highlighted">button</span>
+Native USB port
+
+
+Supported Features
+The Serpente board configuration supports the
+following hardware features:...</div></li><li><a href="https://docs.zephyrproject.org/latest/samples/basic/basic.html?highlight=button">Basic Samples</a><div class="context">...nu on the left and select the desired version.
+    
+  
+  
+           
+            
+  
+Basic Samples
+
+
+Blinky
+PWM Blinky
+<span class="highlighted">Button</span>
+Fade LED
+Minimal footprint
+PWM: RGB LED
+Servomotor
+Basic Thread Example...</div></li><li><a href="https://docs.zephyrproject.org/latest/samples/boards/bbc_microbit/pong/README.html?highlight=button">BBC micro:bit pong game</a><div class="context">...g over as single player or Bluetooth between two micro:bit
+devices.
+The game works by controlling a paddle with the two <span class="highlighted">button</span>s of the
+micro:bit (labeled A and B). Initially the playing mode is selected: use
+button A to toggle between singl...</div></li><li><a href="https://docs.zephyrproject.org/latest/samples/boards/bbc_microbit/sound/README.html?highlight=button">BBC micro:bit sound</a><div class="context">...rds/bbc_microbit/sound
+west flash
+
+
+
+Sample Output
+This sample outputs sounds through a connected piezo buzzer based on
+<span class="highlighted">button</span> presses of the two main buttons. For each press the current
+output frequency will be printed on the 5x5 LED displ...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/bbc_microbit/doc/index.html?highlight=button">BBC MicroBit</a><div class="context">...celerometer and
+magnetometer sensors, Bluetooth and USB connectivity, a display consisting of
+25 LEDs, two programmable <span class="highlighted">button</span>s, and can be powered by either USB or an
+external battery pack. The device inputs and outputs are through five ri...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/bbc_microbit_v2/doc/index.html?highlight=button">BBC MicroBit V2</a><div class="context">...d
+magnetometer sensors, Bluetooth and USB connectivity, a display consisting of
+25 LEDs, a microphone, two programmable <span class="highlighted">button</span>s, and can be powered by either
+USB or an external battery pack. The device inputs and outputs are through five
+ri...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/black_f407ve/doc/index.html?highlight=button">Black STM32 F407VE Development Board</a><div class="context">...ower management access point
+
+
+
+Three LEDs:
+
+
+3.3 V power on (LD0)
+Two user LEDs: green (LD1), green (LD2)
+
+
+
+Four push-<span class="highlighted">button</span>s: RESET, K0, K1 and WK_UP
+Mini-AB connector
+
+
+See also board descriptions at STM32-base website,
+STM32F407VET6 bl...</div></li><li><a href="https://docs.zephyrproject.org/latest/boards/arm/black_f407zg_pro/doc/index.html?highlight=button">Black STM32 F407ZG Pro Development Board</a><div class="context">...ower management access point
+
+
+
+Three LEDs:
+
+
+3.3 V power on (LD0)
+Two user LEDs: green (LD1), green (LD2)
+
+
+
+Four push-<span class="highlighted">button</span>s: RESET, K0, K1 and WK_UP
+Mini-AB connector
+
+
+
+Warning
+The +5V pins on this board are directly connected to the +...</div></li><li><a href="https://docs.zephyrproject.org/latest/samples/bluetooth/mesh/README.html?highlight=button">Bluetooth: Mesh</a><div class="context">...neric OnOff Server model exposes functionality for
+controlling the first LED on the board over the mesh.
+On boards with <span class="highlighted">button</span>s, a Generic OnOff Client model will send Onoff messages
+to all nodes in the network when the button is pressed....</div></li><li><a href="https://docs.zephyrproject.org/latest/samples/bluetooth/mesh_demo/README.html?highlight=button">Bluetooth: Mesh Demo</a><div class="context">...some features especially designed for the BBC
+micro:bit boards, such as the ability to send messages using the board’s
+<span class="highlighted">button</span>s as well as showing information of received messages on the
+board’s 5x5 LED display. It’s generally recommended t...</div></li><li><a href="https://docs.zephyrproject.org/latest/samples/boards/nrf/mesh/onoff_level_lighting_vnd_app/README.html?highlight=button">Bluetooth: Mesh Generic OnOff, Generic Level, Lighting &amp; Vendor Models</a><div class="context">...l (ROOT) / Light Lightness Actual value
+LED4 is associated with generic Level (Secondary) / Light CTL Temperature value
+<span class="highlighted">Button</span>1 and Button2 are associated with gen. OnOff Client or Vendor Model which is part of Root element
+Button3 and Butt...</div></li><li><a href="https://docs.zephyrproject.org/latest/samples/boards/nrf/mesh/onoff-app/README.html?highlight=button">Bluetooth: Mesh OnOff Model</a><div class="context">...ooth mesh multi-element node.
+Each element has a mesh onoff client and server
+model which controls one of the 4 sets of <span class="highlighted">button</span>s and LEDs .
+Prior to provisioning, an unprovisioned beacon is broadcast that contains
+a unique UUID. It is obtain...</div></li></ul></div>
+
+           </div>
+           
+          </div>
+
+          <footer>
+
+  <hr>
+
+  <div role="contentinfo">
+    <p>
+        © <a href="https://docs.zephyrproject.org/latest/copyright.html">Copyright</a> 2015-2021 Zephyr Project members and individual contributors.
+      <span class="lastupdated">
+        Last updated on May 27, 2021.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+  <script type="text/javascript">
+    jQuery(function() { Search.loadIndex("searchindex.js"); });
+  </script>
+  
+  <script type="text/javascript" id="searchindexloader"></script>
+   
+
+
+
+</body></html>

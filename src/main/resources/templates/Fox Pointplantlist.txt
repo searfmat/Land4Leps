@@ -1,0 +1,9 @@
+Plant Shopping List
+-----------------------------
+x3 Rosaceae Crataegus also known as: hawthorn
+x7 Fabaceae Centrosema also known as: butterfly pea
+x8 Alliaceae Allium also known as: onion
+x16 Ranunculaceae Aquilegia also known as: columbine
+x6 Fabaceae Chamaecrista also known as: partridge pea
+-----------------------------
+Land 4 Leps 2021

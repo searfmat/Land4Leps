@@ -11,6 +11,8 @@ Developed for the [Mount Cuba Center](https://mtcubacenter.org/)
 - Built in garden preset templates
 - Plant curation based on conditions
 - Lep support visualizations
+- Freehand garden design
+- Basket system for easy organization
 - Import/export custom gardens with shopping lists
 - Index of major native plants
 
